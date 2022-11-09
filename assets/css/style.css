@@ -295,9 +295,9 @@ svg {
 }
 
 /*--------------------------------------------------------------
-# Pricing
+# Fakultas
 --------------------------------------------------------------*/
-.pricing .box {
+.fakultas .box {
   padding: 40px 20px;
   background: #fff;
   text-align: center;
@@ -308,7 +308,7 @@ svg {
   transition: 0.3s;
 }
 
-.pricing .box:hover {
+.fakultas .box:hover {
   transform: scale(1.1);
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
 }
