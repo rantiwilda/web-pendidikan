@@ -69,7 +69,6 @@ section {
   .desktop-nav {
     display: none;
   }
-
   .mobile-nav {
     display: block;
     background-color: #ffff;
@@ -87,9 +86,11 @@ section {
   width: 100%;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background-image: linear-gradient(86deg,
-      #0061f2 0%,
-      rgba(105, 0, 199, 0.8) 100%);
+  background-image: linear-gradient(
+    86deg,
+    #0061f2 0%,
+    rgba(105, 0, 199, 0.8) 100%
+  );
   background-size: cover;
 }
 
@@ -149,7 +150,6 @@ svg {
   .hero {
     background-attachment: fixed;
   }
-
   .svg-border-rounded svg {
     height: 8rem;
   }
@@ -160,16 +160,13 @@ svg {
     height: auto;
     padding: 120px 0 60px 0;
   }
-
   .hero .hero-img {
     text-align: center;
     margin-top: 80px;
   }
-
   .hero .hero-img img {
     width: 80%;
   }
-
   .svg-border-rounded svg {
     height: 2.5rem;
   }
@@ -179,19 +176,15 @@ svg {
   .hero {
     text-align: center;
   }
-
   .hero h1 {
     font-size: 32px;
   }
-
   .hero h2 {
     font-size: 24px;
   }
-
   .hero .hero-img img {
     width: 100%;
   }
-
   .svg-border-rounded svg {
     height: 3.75rem;
   }
@@ -305,7 +298,7 @@ svg {
 }
 
 /*--------------------------------------------------------------
-# Fakultas
+# Pricing
 --------------------------------------------------------------*/
 .fakultas .box {
   padding: 40px 20px;
@@ -319,25 +312,6 @@ svg {
 }
 
 .fakultas .box:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
-}
-
-/*--------------------------------------------------------------
-# Pricing
---------------------------------------------------------------*/
-.pricing .box {
-  padding: 40px 20px;
-  background: #fff;
-  text-align: center;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  border-radius: 4px;
-  position: relative;
-  overflow: hidden;
-  transition: 0.3s;
-}
-
-.pricing .box:hover {
   transform: scale(1.1);
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
 }
@@ -422,18 +396,15 @@ svg {
 .footer-area {
   overflow: hidden;
 }
-
 .footer-area .footer-overlay {
   background-color: rgba(0, 34, 73, 0.9);
   padding-top: 88px;
 }
-
 .footer-area .widget-item-1 p {
   padding-top: 30px;
   color: #c2d1e2;
   border: 3px solid rgb(230, 154, 14) (115, 255, 0) (255, 196, 0);
 }
-
 .footer-area .widget-item-2 .title {
   font-weight: 700;
   font-size: 30px;
@@ -441,29 +412,23 @@ svg {
   padding-bottom: 17px;
   color: #fff;
 }
-
 .footer-area .widget-item-2 ul {
   display: inline-block;
 }
-
 .footer-area .widget-item-2 ul li {
   line-height: 50px;
   color: #c2d1e2;
 }
-
 .footer-area .widget-item-2 ul li i {
   padding-right: 6px;
 }
-
 .footer-area .widget-item-2 ul li a {
   color: #c2d1e2;
   transition: all 0.3s ease-out 0s;
 }
-
 .footer-area .widget-item-2 ul li a:hover {
   color: #0c59db;
 }
-
 .footer-area .widget-item-3 .title {
   font-weight: 700;
   font-size: 30px;
@@ -471,17 +436,14 @@ svg {
   padding-bottom: 17px;
   color: #fff;
 }
-
 .footer-area .widget-item-3 .features-sub {
   background: none;
   padding: 0px;
 }
-
 .footer-area .widget-item-3 .features-sub p {
   color: #c2d1e2;
   padding-bottom: 25px;
 }
-
 .footer-area .widget-item-3 .features-sub .input-box input {
   background-color: transparent;
   border: 2px solid rgba(255, 255, 255, 0.3);
@@ -491,25 +453,25 @@ svg {
   color: #fff;
   font-size: 14px;
 }
-
 .footer-area .widget-item-3 .features-sub .input-box input::-moz-placeholder {
   font-size: 14px;
   opacity: 1;
   color: #c2d1e2;
 }
-
-.footer-area .widget-item-3 .features-sub .input-box input:-ms-input-placeholder {
+.footer-area
+  .widget-item-3
+  .features-sub
+  .input-box
+  input:-ms-input-placeholder {
   font-size: 14px;
   opacity: 1;
   color: #c2d1e2;
 }
-
 .footer-area .widget-item-3 .features-sub .input-box input::placeholder {
   font-size: 14px;
   opacity: 1;
   color: #c2d1e2;
 }
-
 .footer-area .widget-item-3 .features-sub .input-box button {
   border-radius: 0;
   margin-top: 10px;
@@ -517,39 +479,31 @@ svg {
   padding: 0;
   font-weight: 600;
 }
-
 .footer-area .widget-item-3 ul {
   display: inline-block;
 }
-
 .footer-area .widget-item-3 ul li {
   line-height: 50px;
   color: #c2d1e2;
 }
-
 .footer-area .widget-item-3 ul li i {
   padding-right: 6px;
 }
-
 .footer-area .widget-item-3 ul li a {
   color: #c2d1e2;
   transition: all 0.3s ease-out 0s;
 }
-
 .footer-area .widget-item-3 ul li a:hover {
   color: #0c59db;
 }
-
 .footer-area .footer-copyright {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   margin-top: 100px;
   text-align: center;
 }
-
 .footer-area .footer-copyright p {
   color: #c2d1e2;
 }
-
 .footer-area .footer-copyright p span {
   font-weight: 700;
   color: #002249;
