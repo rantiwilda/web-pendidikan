@@ -88,20 +88,19 @@ section {
   padding-top: 8rem;
   padding-bottom: 8rem;
 
-   /* background-image: url('../video/unindra-oke 1.mp4');
+  /* background-image: url('../video/unindra-oke 1.mp4');
   background-size: cover; */
   background-repeat: no-repeat;
-
 }
 
 .hero h1 {
   margin: 0;
   font-size: 26px;
-  color:rgba(13, 202, 70, 0.5)!important;
+  color: rgba(13, 202, 70, 0.5) !important;
 }
 
 .hero h2 {
-  color:  rgba(62, 171, 7, 0.693)!important;
+  color: rgba(62, 171, 7, 0.693) !important;
   margin: 15px 0 0 0;
   text-align: justify;
   font-size: 48px;
@@ -111,7 +110,7 @@ section {
 .hero h3 {
   margin: 0;
   font-size: 26px;
-  color:rgba(255, 255, 255, 0.5)!important;
+  color: rgba(255, 255, 255, 0.5) !important;
 }
 
 .hero .btn-get-started {
@@ -419,7 +418,7 @@ svg {
   font-weight: 700;
   margin: 0;
 }
-.features .feature-box h1 {
+.features .feature-box h2 {
   padding-right: 20px;
   font-weight: 780;
 }
@@ -460,9 +459,8 @@ svg {
   border-bottom: 3px solid #2db6fa;
 }
 
-.services .service-box.blue .icon {
-  color: #2db6fa;
-  background: #dbf3fe;
+.services .service-box.blue img {
+  margin-bottom: 24px;
 }
 
 .services .service-box.blue .read-more {
